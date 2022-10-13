@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Softwareholic</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2c42c75f1d.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section class="sub-header">
+
+        <nav>
+
+            <a href="index.html"><img src="/images/Softwareholic.png" alt=""></a>
+
+            <div class="nav-links" id="nav-links">
+
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/about.html">About us</a></li>
+                    <li><a href="/contact.html">Contact us</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+
+        </nav>
+
+        <h1>About us</h1>
+
+    </section>
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-us-col">
+                <h1>We help you to complete your project, publish research paper & design magazines.</h1>
+                <a href="/index.html" class="hero-btn blue-btn">Explore Now</a>
+            </div>
+
+            <div class="about-us-col">
+                <img src="/images/about.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form class="comment-form">
+                <input type="text" placeholder="Enter Name">
+                <input type="email" placeholder="Enter Email">
+                <textarea rows="5" placeholder="Your comment"></textarea>
+                <button type="submit" class="hero-btn blue-btn">Post comment</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="icons">
+            <h3>Founders</h3>
+            <div class="row2">
+                <div class="about-col">
+                    <img src="/images/aftab.jpeg" alt="">
+                    <h4>Aftab Mulla</h4>
+                    <a href="mailto:aftabsm18@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://www.facebook.com/aftab.mulla.92317"><i class="fa fa-facebook"></i></a>
+                    <a href="https://instagram.com/iamaftab_x?igshid=YmMyMTA2M2Y="><i class="fa fa-instagram"></i></a>
+                </div>
+                <div class="about-col">
+                    <img src="/images/shiv.jpeg" alt="">
+                    <h4>Shivprasad Patil</h4>
+                    <a href="mailto:vihs7777@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100031281493961"><i class="fa fa-facebook"></i></a>
+                    <a href="http://instagram.com/77_vihs_77?utm_source=qr"><i class="fa fa-instagram"></i></a>
+                </div>
+                <div class="about-col">
+                    <img src="/images/varun.jpeg" alt="">
+                    <h4>Varunraj Patil</h4>
+                    <a href="mailto:varunrajpatil001@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://www.facebook.com/varun.patil.5249349"><i class="fa fa-facebook"></i></a>
+                    <a href="https://instagram.com/varunraj.in?igshid=YmMyMTA2M2Y="><i class="fa fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+
+        var navLinks = document.getElementById("nav-links");
+        function showmenu()
+        {
+            navLinks.style.right = "0";
+        }
+        function hidemenu()
+        {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>

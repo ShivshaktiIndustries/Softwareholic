@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Softwareholic</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2c42c75f1d.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section class="header">
+
+        <nav>
+
+            <a href="index.html"><img src="/images/Softwareholic.png" alt=""></a>
+
+            <div class="nav-links" id="nav-links">
+
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/about.html">About us</a></li>
+                    <li><a href="/contact.html">Contact us</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+
+        </nav>
+
+        <div class="text-box">
+
+            <h1>You are on the right place.</h1>
+            <p>Completing your acadmic project is now one of the easiest thing in the world. You just need to contact us <br>and lets talk about your project.</p>
+            <a href="/contact.html" class="hero-btn">Contact us To know more</a>
+
+        </div>
+
+    </section>
+
+    <section class="service">
+
+        <h1>Services we provide</h1>
+        <p>We provide services for students and colleges to complete their projects, publishe their papers and design the magazines</p>
+
+        <div class="row">
+            <div class="service-col">
+                <h3>Paper</h3>
+                <p>This service aim for the publication of quality research articles to flourish the entire education society by spreading original piece of knowledge. International Journal of Scientific Engineering and Research have the group of researchers and academicians who are committed to assist study and enhance aptitude by giving an aid for composing high caliber research papers through associate evaluation.</p>
+            </div>
+
+            <div class="service-col">
+                <h3>Project</h3>
+                <p>This service aim for create a micro project or mega project as per your requirement in your budget. We can build projects in varity of languages with the project report. We can build projects like IoT based project, Web based projects, electronics based project and etc.</p>
+            </div>
+
+            <div class="service-col">
+                <h3>Magazine</h3>
+                <p>This service aim for keep you up-to-date with the latest global design trends and cutting-edge tech, remind you of the fundamentals that make creative work great, advise you on the best tools for your needs, and ultimately, help you create your best work.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h1>Apply for our services<br>Anywhere From the World</h1>
+        <a href="/contact.html" class="hero-btn">Contact us</a>
+    </section>
+
+    <section class="footer">
+        <div class="icons">
+            <h3>Founders</h3>
+            <div class="row2">
+                <div class="about-col">
+                    <img src="/images/aftab.jpeg" alt="">
+                    <h4>Aftab Mulla</h4>
+                    <a href="mailto:aftabsm18@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://www.facebook.com/aftab.mulla.92317"><i class="fa fa-facebook"></i></a>
+                    <a href="https://instagram.com/iamaftab_x?igshid=YmMyMTA2M2Y="><i class="fa fa-instagram"></i></a>
+                </div>
+                <div class="about-col">
+                    <img src="/images/shiv.jpeg" alt="">
+                    <h4>Shivprasad Patil</h4>
+                    <a href="mailto:vihs7777@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100031281493961"><i class="fa fa-facebook"></i></a>
+                    <a href="http://instagram.com/77_vihs_77?utm_source=qr"><i class="fa fa-instagram"></i></a>
+                </div>
+                <div class="about-col">
+                    <img src="/images/varun.jpeg" alt="">
+                    <h4>Varunraj Patil</h4>
+                    <a href="mailto:varunrajpatil001@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://www.facebook.com/varun.patil.5249349"><i class="fa fa-facebook"></i></a>
+                    <a href="https://instagram.com/varunraj.in?igshid=YmMyMTA2M2Y="><i class="fa fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+
+        var navLinks = document.getElementById("nav-links");
+        function showmenu()
+        {
+            navLinks.style.right = "0";
+        }
+        function hidemenu()
+        {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
